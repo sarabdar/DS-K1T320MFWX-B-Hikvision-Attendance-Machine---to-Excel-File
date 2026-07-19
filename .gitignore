@@ -1,3 +1,13 @@
 .env
-
+__pycache__/
 venv
+
+attendence/__pycache__
+
+cli/__pycache__
+
+export/__pycache__
+
+hikvision/__pycache__
+
+export/__pycache__
