@@ -15,8 +15,8 @@ hikvision_attendence/
 ├── attendance/        # Data transformation & hour calculations
 ├── export/            # openpyxl Excel styling & writing
 ├── requirements.txt   # Python dependencies
-├── .env-example       # Template for your credentials
-└── .env               # Your actual credentials (never commit this)
+├── .env-example       # Template for  credentials
+└── .env               # Actual credentials 
 ```
 
 ---
@@ -39,7 +39,7 @@ source venv/bin/activate
 venv\Scripts\activate
 ```
 
-> You should see `(venv)` at the start of your terminal prompt.
+> You should see `(venv)` at the start of terminal prompt.
 
 ---
 
@@ -59,7 +59,7 @@ This installs:
 
 ### 3. Configure Environment Variables
 
-Copy the example file and fill in your device credentials:
+Copy the example file and fill in device credentials:
 
 ```bash
 cp .env-example .env
@@ -75,7 +75,7 @@ PASSWORD="your_password_here"
 
 | Variable    | Description                              |
 |-------------|------------------------------------------|
-| `DEVICE_IP` | IP address of your Hikvision device      |
+| `DEVICE_IP` | IP address of  Hikvision device      |
 | `USERNAME`  | Admin username for the device            |
 | `PASSWORD`  | Admin password for the device            |
 
